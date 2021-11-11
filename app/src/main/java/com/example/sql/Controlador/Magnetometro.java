@@ -281,7 +281,7 @@ public class Magnetometro extends Fragment {
                 new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        Toast.makeText(context, error+"", Toast.LENGTH_SHORT).show();
+                      //  Toast.makeText(context, error+"", Toast.LENGTH_SHORT).show();
                     }
                 }
         );
@@ -328,7 +328,7 @@ public class Magnetometro extends Fragment {
                 new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        Toast.makeText(context, error+"", Toast.LENGTH_SHORT).show();
+                     //   Toast.makeText(context, error+"", Toast.LENGTH_SHORT).show();
                     }
                 }
         );
@@ -361,7 +361,7 @@ public class Magnetometro extends Fragment {
                 new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        Toast.makeText(context, error+"", Toast.LENGTH_SHORT).show();
+                     //   Toast.makeText(context, error+"", Toast.LENGTH_SHORT).show();
                     }
                 }
         );
@@ -490,7 +490,7 @@ public class Magnetometro extends Fragment {
                 new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        Toast.makeText(context, error+"", Toast.LENGTH_SHORT).show();
+                     //   Toast.makeText(context, error+"", Toast.LENGTH_SHORT).show();
                     }
                 }
         );
