@@ -3,13 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudio/ProyectoPerros/app/src/main/res/layout/activity_main.xml" value="0.12158054711246201" />
+        <entry key="..\:/AndroidStudio/ProyectoPerros/app/src/main/res/layout/fragment_acelerometro.xml" value="0.1" />
+        <entry key="..\:/AndroidStudio/ProyectoPerros/app/src/main/res/layout/fragment_magnetometro.xml" value="0.1" />
+        <entry key="..\:/AndroidStudio/ProyectoPerros/app/src/main/res/layout/fragment_maps.xml" value="0.176" />
         <entry key="..\:/Users/torre/AndroidStudioProjects/perros/app/src/main/res/layout/fragment_acelerometro.xml" value="0.21052631578947367" />
         <entry key="..\:/Users/torre/AndroidStudioProjects/perros/app/src/main/res/layout/fragment_giroscopio.xml" value="0.16" />
         <entry key="..\:/Users/torre/AndroidStudioProjects/perros/app/src/main/res/layout/fragment_magnetometro.xml" value="0.10282776349614396" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

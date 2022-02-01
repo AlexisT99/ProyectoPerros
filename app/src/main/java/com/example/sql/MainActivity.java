@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     ViewPager viewPager;
     private Spinner spinner;
     PagerController pagerAdapter;
-    TabItem tab1,tab2,tab3;
+    TabItem tab1,tab2,tab3,tab4;
 
 
     RequestQueue requestQueue;
@@ -59,9 +59,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         tab1 = findViewById(R.id.tabacelerometro);
         tab2 = findViewById(R.id.tabgiroscopio);
         tab3 = findViewById(R.id.tabmagnetometro);
+        tab4 = findViewById(R.id.tabmapa);
         pagerAdapter = new PagerController(getSupportFragmentManager(), tabLayout.getTabCount());
         viewPager.setAdapter(pagerAdapter);
-        viewPager.setOffscreenPageLimit(3);
+        viewPager.setOffscreenPageLimit(4);
         tabLayout. addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
@@ -69,6 +70,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 if(tab.getPosition()==0) pagerAdapter.notifyDataSetChanged();
                 if(tab.getPosition()==1) pagerAdapter.notifyDataSetChanged();
                 if(tab.getPosition()==2) pagerAdapter.notifyDataSetChanged();
+                if(tab.getPosition()==3) pagerAdapter.notifyDataSetChanged();
             }
 
             @Override

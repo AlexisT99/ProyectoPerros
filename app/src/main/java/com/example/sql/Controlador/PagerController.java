@@ -11,6 +11,7 @@ public class PagerController extends FragmentStatePagerAdapter {
     Acelerometro Acelerometro;
     Giroscopio Giroscopio;
     Magnetometro Magnetometro;
+    MapsFragment Mapa;
 
     public PagerController(@NonNull FragmentManager fm, int behaviors) {
         super(fm, behaviors);
@@ -18,6 +19,7 @@ public class PagerController extends FragmentStatePagerAdapter {
         Acelerometro = new Acelerometro();
         Giroscopio = new Giroscopio();
         Magnetometro = new Magnetometro();
+        Mapa = new MapsFragment();
     }
 
     @NonNull
@@ -30,8 +32,11 @@ public class PagerController extends FragmentStatePagerAdapter {
                 return Giroscopio;
             case 2:
                 return Magnetometro;
+            case 3:
+                return  Mapa;
             default:
                 return null;
+
         }
     }
 
